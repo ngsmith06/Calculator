@@ -1,0 +1,40 @@
+.container {
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+    margin-top: 20px;
+}
+.calc-box {
+    color:green;
+    font-size:2.5em;
+    background-color:black;
+    padding: 10px;
+    font-family: 'Roboto Serif',serif;
+    direction:rtl;
+    border-radius: 10px;
+    grid-column-start:1;
+    grid-column-end:4;
+    margin:20px;
+}
+.calc-container {
+    display:grid;
+    background-color:green;
+    border-style:outset;
+    border-width: 15px;
+    border-color:Green;
+    border-radius:10px;
+    grid-template-columns:15% 70% 15%;
+}
+.num-container {
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    font-size: 2em;
+}
+.num-keys {
+    background-color:green;
+    width: 100px;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 5px groove green;
+}
