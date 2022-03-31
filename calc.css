@@ -1,40 +1,55 @@
+body {
+    background-image: url("spacephoto.jpg");
+    }
 .container {
     display:grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 30% 40% 30%;
     margin-top: 20px;
 }
+.calc-container {
+    background-image: url("spacephoto.jpg");
+    padding:10px;
+    display:grid;
+    grid-template-columns: 15% 70% 15%;
+}
 .calc-box {
-    color:green;
-    font-size:2.5em;
-    background-color:black;
-    padding: 10px;
-    font-family: 'Roboto Serif',serif;
-    direction:rtl;
-    border-radius: 10px;
+    background-image: url("spacephoto.jpg");
+    font-size:2em;
+    color:red;
+    padding-left: 12px;
+    direction:ltr;
     grid-column-start:1;
     grid-column-end:4;
-    margin:20px;
-}
-.calc-container {
-    display:grid;
-    background-color:green;
-    border-style:outset;
-    border-width: 15px;
-    border-color:Green;
+    margin: 20px;
+    border-width:7px;
     border-radius:10px;
-    grid-template-columns:15% 70% 15%;
 }
 .num-container {
     display:grid;
-    grid-template-columns:25% 25% 25% 25%;
-    font-size: 2em;
+    grid-template-columns: 25% 25% 25% 25%;
+    
 }
 .num-keys {
-    background-color:green;
-    width: 100px;
-    height: 25px;
-    margin-bottom: 10px;
-    margin-left:auto;
-    margin-right:auto;
-    border: 5px groove green;
+    background-image: url("spacephoto.jpg");
+    grid-row-start:2;
+    grid-column-start: 1;
+    grid-column-end:3;
+    
 }
+.number {
+    background-image: url("spacephoto.jpg");
+    color:red;
+    border-color:red;
+    width:100px;
+    height:25px;
+    margin-bottom: 10px;
+    margin-left:30px;
+    margin-right:auto;
+}
+.number:hover {
+    color:red;
+    background-color:black;
+    
+}
+
+
